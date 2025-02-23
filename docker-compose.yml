@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   llm-env:
     build: .
@@ -10,3 +8,6 @@ services:
       - .:/app
     environment:
       - PYTHONUNBUFFERED=1
+    working_dir: /app
+    stdin_open: true   
+    tty: true 

@@ -19,5 +19,5 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 EXPOSE 8000
 
 # Comando por defecto: inicia un intérprete interactivo de Python
-CMD ["python"]
+CMD ["sleep", "infinity"]
 
